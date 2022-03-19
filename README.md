@@ -14,6 +14,10 @@ Para rodar todos os testes execute `chmod +x _test.sh && ./_test.sh`
 
 Para executar a aplicação execute `chmod +x _start.sh && ./_start.sh`
 
+### Executando a aplicação(Sem docker)
+
+Para executar a aplicação execute `npm i && npm start`
+
 ## Tests
 - Deve estar conectada a dois bancos de dados(`MySQL` e `PostgreSQL`)
 - Deve ser possível fazer login(De onde vem as credenciais ?)
