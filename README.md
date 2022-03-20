@@ -11,6 +11,7 @@ Por __*Pedro Aroucha(@pedr0aroucha)*__
 - Todos os testes estão na pasta \_\_tests\_\_
 - É preferencial que o S.O para executar a API seja do tipo unix(Linux, MacOS, ...)
 - O Docker deve estar instalado e configurado na sua máquina para rodar a aplicação
+- Você pode usar o insomnia para ver as rotas em execução, basta importar o arquivo "Insomnia.json" no seu Insomnia
 
 ## Executando a aplicação(Com docker)
 
