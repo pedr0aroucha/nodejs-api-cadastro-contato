@@ -1,24 +1,11 @@
 import { Request, Response } from 'express';
-import { mask } from '../helpers/mask';
 
-import { ContactsServices } from '../services/ContactsServices';
+import { mask } from '../../helpers/mask';
 
-export class ContactsControllers {
-	async findContacts(request: Request, response: Response) {
-		try {
-			const contactsServices = new ContactsServices();
+import { ContactsServices } from '../../services/ContactsServices';
 
-			const contacts = await contactsServices.findContacts(
-				request.params.client as string
-			);
-
-			return response.json(contacts);
-		} catch (error) {
-			return response.status(400).json({ error: error.message });
-		}
-	}
-
-	async saveContacts(request: Request, response: Response) {
+export class SaveContactsController {
+	async execute(request: Request, response: Response) {
 		try {
 			const contactsServices = new ContactsServices();
 

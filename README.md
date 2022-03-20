@@ -29,8 +29,7 @@ Por __*Pedro Aroucha(@pedr0aroucha)*__
 Corpo da requisição:
 ```json
 {
-    "username": "admin",
-    "password": "admin"
+    "username": "<any>"
 }
 ```
 Resposta da requisição:

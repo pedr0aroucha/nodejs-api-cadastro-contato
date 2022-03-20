@@ -9,6 +9,9 @@ import cors from 'cors';
 import './database/';
 
 import contacts from './routes/contacts';
+import login from './routes/login';
+
+import { AuthenticateToken } from './middlewares/AuthenticateToken';
 
 class App {
 	app: Express;
@@ -22,10 +25,12 @@ class App {
 	middlewares() {
 		this.app.use(express.json());
 		this.app.use(cors());
+		this.app.use(new AuthenticateToken().execute);
 	}
 
 	routes() {
 		this.app.use('/contacts', contacts);
+		this.app.use('/login', login);
 	}
 }
 

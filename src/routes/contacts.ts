@@ -1,10 +1,11 @@
 import { Router } from 'express';
 
-import { ContactsControllers } from '../controllers/ContactsControllers';
+import { FindContactsController } from '../controllers/Contacts/FindContactsController';
+import { SaveContactsController } from '../controllers/Contacts/SaveContactsController';
 
 const routes = Router();
 
-routes.get('/:client', new ContactsControllers().findContacts);
-routes.post('/:client', new ContactsControllers().saveContacts);
+routes.get('/:client', new FindContactsController().execute);
+routes.post('/:client', new SaveContactsController().execute);
 
 export default routes;
