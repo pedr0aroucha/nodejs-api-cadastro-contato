@@ -10,6 +10,7 @@ Por __*Pedro Aroucha(@pedr0aroucha)*__
 - Todo o código fonte está na pasta src
 - Todos os testes estão na pasta \_\_tests\_\_
 - É preferencial que o S.O para executar a API seja do tipo unix(Linux, MacOS, ...)
+- O Docker deve estar instalado e configurado na sua máquina para rodar a aplicação
 
 ## Executando a aplicação(Com docker)
 
