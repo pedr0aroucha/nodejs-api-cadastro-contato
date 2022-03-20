@@ -16,11 +16,6 @@ Por __*Pedro Aroucha(@pedr0aroucha)*__
 
 `$ chmod +x _start.sh && ./_start.sh`
 
-## Executando a aplicação(Sem docker)
-
-`$ npm i && npm start`
-
-
 # Sobre a API
 
 ### `POST`
