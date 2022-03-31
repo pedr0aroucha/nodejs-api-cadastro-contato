@@ -1,8 +1,4 @@
-# Teste BackEnd Mercafacil
 
-Por __*Pedro Aroucha(@pedr0aroucha)*__
-
-<hr>
 
 ## Algumas consideraçẽs
 
